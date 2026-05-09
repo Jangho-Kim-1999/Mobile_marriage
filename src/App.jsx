@@ -2,11 +2,11 @@ import { useRef } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 
 const PHOTOS = [
-  { src: '/Mobile_marriage/images/scene-1.jpg', pos: 'center 30%', text: '서로에게\n걸어가는 시간' },
-  { src: '/Mobile_marriage/images/scene-2.jpg', pos: 'center 40%', text: null },
-  { src: '/Mobile_marriage/images/scene-3.jpg', pos: 'center 50%', text: null },
-  { src: '/Mobile_marriage/images/scene-4.jpg', pos: 'center 45%', text: null },
-  { src: '/Mobile_marriage/images/scene-5.jpg', pos: 'center 35%', text: null },
+  { src: '/Mobile_marriage/images/scene-1.png', pos: 'center 40%', text: '서로에게\n걸어가는 시간' },
+  { src: '/Mobile_marriage/images/scene-2.png', pos: 'center 50%', text: null },
+  { src: '/Mobile_marriage/images/scene-3.png', pos: 'center 50%', text: null },
+  { src: '/Mobile_marriage/images/scene-4.png', pos: 'center 50%', text: null },
+  { src: '/Mobile_marriage/images/scene-5.jpg', pos: 'center 40%', text: null },
 ]
 
 const N = PHOTOS.length
