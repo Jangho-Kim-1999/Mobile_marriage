@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="description" content="홍길동 ♥ 김영희 결혼식에 초대합니다" />
+  <title>홍길동 ♥ 김영희</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-sub fade-in">We're Getting Married</p>
+      <div class="couple-names fade-in delay-1">
+        <span class="groom">홍길동</span>
+        <span class="heart">♥</span>
+        <span class="bride">김영희</span>
+      </div>
+      <p class="hero-date fade-in delay-2">2026년 6월 14일 일요일 오후 1시</p>
+      <div class="scroll-indicator fade-in delay-3">
+        <span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Invitation Section -->
+  <section class="invitation reveal">
+    <div class="section-inner">
+      <p class="section-tag">INVITATION</p>
+      <h2 class="section-title">초대합니다</h2>
+      <div class="divider"><span></span><span class="dot"></span><span></span></div>
+      <p class="invitation-text">
+        서로가 마주 보며 다져온 사랑을<br />
+        이제 함께 한 곳을 바라보며<br />
+        걸어가고자 합니다.<br /><br />
+        저희 두 사람이 사랑을 맺는 자리에<br />
+        오셔서 축복해 주시면<br />
+        더없는 기쁨이겠습니다.
+      </p>
+      <div class="family-info">
+        <div class="family-row">
+          <div class="family-item">
+            <p class="family-label">신랑</p>
+            <p class="family-name">홍 길 동</p>
+            <p class="family-parents">홍판서 · 춘향모 의 아들</p>
+          </div>
+          <div class="family-divider"></div>
+          <div class="family-item">
+            <p class="family-label">신부</p>
+            <p class="family-name">김 영 희</p>
+            <p class="family-parents">김철수 · 이순자 의 딸</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photo Section -->
+  <section class="photo-section reveal">
+    <div class="photo-grid">
+      <div class="photo-item photo-1">
+        <div class="photo-overlay">
+          <span>Our Story</span>
+        </div>
+      </div>
+      <div class="photo-col">
+        <div class="photo-item photo-2"></div>
+        <div class="photo-item photo-3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Date & Countdown Section -->
+  <section class="countdown-section reveal">
+    <div class="section-inner">
+      <p class="section-tag">WEDDING DATE</p>
+      <h2 class="section-title">결혼식까지</h2>
+      <div class="divider"><span></span><span class="dot"></span><span></span></div>
+      <div class="countdown" id="countdown">
+        <div class="count-item">
+          <span class="count-num" id="days">00</span>
+          <span class="count-label">Days</span>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-item">
+          <span class="count-num" id="hours">00</span>
+          <span class="count-label">Hours</span>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-item">
+          <span class="count-num" id="minutes">00</span>
+          <span class="count-label">Minutes</span>
+        </div>
+        <div class="count-sep">:</div>
+        <div class="count-item">
+          <span class="count-num" id="seconds">00</span>
+          <span class="count-label">Seconds</span>
+        </div>
+      </div>
+      <div class="wedding-date-display">
+        <div class="calendar">
+          <div class="cal-header">2026. 06</div>
+          <div class="cal-grid">
+            <div class="cal-day-name">일</div>
+            <div class="cal-day-name">월</div>
+            <div class="cal-day-name">화</div>
+            <div class="cal-day-name">수</div>
+            <div class="cal-day-name">목</div>
+            <div class="cal-day-name">금</div>
+            <div class="cal-day-name">토</div>
+            <div class="cal-day"></div>
+            <div class="cal-day">1</div>
+            <div class="cal-day">2</div>
+            <div class="cal-day">3</div>
+            <div class="cal-day">4</div>
+            <div class="cal-day">5</div>
+            <div class="cal-day sat">6</div>
+            <div class="cal-day sun">7</div>
+            <div class="cal-day">8</div>
+            <div class="cal-day">9</div>
+            <div class="cal-day">10</div>
+            <div class="cal-day">11</div>
+            <div class="cal-day">12</div>
+            <div class="cal-day sat">13</div>
+            <div class="cal-day sun marked">14</div>
+            <div class="cal-day">15</div>
+            <div class="cal-day">16</div>
+            <div class="cal-day">17</div>
+            <div class="cal-day">18</div>
+            <div class="cal-day">19</div>
+            <div class="cal-day sat">20</div>
+            <div class="cal-day sun">21</div>
+            <div class="cal-day">22</div>
+            <div class="cal-day">23</div>
+            <div class="cal-day">24</div>
+            <div class="cal-day">25</div>
+            <div class="cal-day">26</div>
+            <div class="cal-day sat">27</div>
+            <div class="cal-day sun">28</div>
+            <div class="cal-day">29</div>
+            <div class="cal-day">30</div>
+          </div>
+        </div>
+        <p class="time-display">오후 1:00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Location Section -->
+  <section class="location-section reveal">
+    <div class="section-inner">
+      <p class="section-tag">LOCATION</p>
+      <h2 class="section-title">오시는 길</h2>
+      <div class="divider"><span></span><span class="dot"></span><span></span></div>
+      <div class="venue-info">
+        <h3 class="venue-name">그랜드 웨딩홀</h3>
+        <p class="venue-hall">그랜드볼룸 3층</p>
+        <p class="venue-address">서울특별시 강남구 테헤란로 123</p>
+      </div>
+      <div class="map-container">
+        <div class="map-placeholder">
+          <svg viewBox="0 0 400 220" xmlns="http://www.w3.org/2000/svg">
+            <rect width="400" height="220" fill="#f5f4f0"/>
+            <line x1="0" y1="110" x2="400" y2="110" stroke="#ddd" stroke-width="2"/>
+            <line x1="200" y1="0" x2="200" y2="220" stroke="#ddd" stroke-width="2"/>
+            <rect x="120" y="70" width="160" height="80" rx="4" fill="#e8e4dd" stroke="#ccc" stroke-width="1"/>
+            <text x="200" y="115" text-anchor="middle" fill="#888" font-size="12" font-family="sans-serif">그랜드 웨딩홀</text>
+            <circle cx="200" cy="80" r="10" fill="#c9a96e"/>
+            <polygon points="200,58 207,73 193,73" fill="#c9a96e"/>
+            <text x="200" y="76" text-anchor="middle" fill="white" font-size="9" font-family="sans-serif" font-weight="bold">♥</text>
+          </svg>
+        </div>
+      </div>
+      <div class="transport-info">
+        <div class="transport-item">
+          <div class="transport-icon">🚇</div>
+          <div class="transport-text">
+            <strong>지하철</strong>
+            <p>2호선 강남역 3번 출구 도보 5분</p>
+          </div>
+        </div>
+        <div class="transport-item">
+          <div class="transport-icon">🚌</div>
+          <div class="transport-text">
+            <strong>버스</strong>
+            <p>강남역 정류장 하차 (140, 401, 3412)</p>
+          </div>
+        </div>
+        <div class="transport-item">
+          <div class="transport-icon">🚗</div>
+          <div class="transport-text">
+            <strong>자가용</strong>
+            <p>건물 지하 주차장 이용 가능 (2시간 무료)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section reveal">
+    <div class="section-inner">
+      <p class="section-tag">CONTACT</p>
+      <h2 class="section-title">연락하기</h2>
+      <div class="divider"><span></span><span class="dot"></span><span></span></div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <p class="contact-role">신랑</p>
+          <p class="contact-name">홍길동</p>
+          <a href="tel:010-1234-5678" class="contact-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
+            </svg>
+            전화하기
+          </a>
+        </div>
+        <div class="contact-card">
+          <p class="contact-role">신부</p>
+          <p class="contact-name">김영희</p>
+          <a href="tel:010-9876-5432" class="contact-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
+            </svg>
+            전화하기
+          </a>
+        </div>
+        <div class="contact-card">
+          <p class="contact-role">신랑 아버지</p>
+          <p class="contact-name">홍판서</p>
+          <a href="tel:010-1111-2222" class="contact-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
+            </svg>
+            전화하기
+          </a>
+        </div>
+        <div class="contact-card">
+          <p class="contact-role">신부 아버지</p>
+          <p class="contact-name">김철수</p>
+          <a href="tel:010-3333-4444" class="contact-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16.92z"/>
+            </svg>
+            전화하기
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Account Section -->
+  <section class="account-section reveal">
+    <div class="section-inner">
+      <p class="section-tag">ACCOUNT</p>
+      <h2 class="section-title">마음 전하기</h2>
+      <div class="divider"><span></span><span class="dot"></span><span></span></div>
+      <p class="account-desc">
+        참석이 어려우신 분들께서는<br />
+        축하의 마음을 전달해 주시면<br />
+        감사히 받겠습니다.
+      </p>
+      <div class="account-cards">
+        <div class="account-card" onclick="copyAccount('신한은행 110-123-456789 홍길동')">
+          <p class="account-bank">신한은행</p>
+          <p class="account-num">110-123-456789</p>
+          <p class="account-holder">홍길동 (신랑)</p>
+          <span class="copy-badge">복사</span>
+        </div>
+        <div class="account-card" onclick="copyAccount('국민은행 123-45-678901 김영희')">
+          <p class="account-bank">국민은행</p>
+          <p class="account-num">123-45-678901</p>
+          <p class="account-holder">김영희 (신부)</p>
+          <span class="copy-badge">복사</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery-section reveal">
+    <div class="section-inner">
+      <p class="section-tag">GALLERY</p>
+      <h2 class="section-title">우리의 순간들</h2>
+      <div class="divider"><span></span><span class="dot"></span><span></span></div>
+    </div>
+    <div class="gallery-scroll">
+      <div class="gallery-item g-item-1"></div>
+      <div class="gallery-item g-item-2"></div>
+      <div class="gallery-item g-item-3"></div>
+      <div class="gallery-item g-item-4"></div>
+      <div class="gallery-item g-item-5"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p class="footer-heart">♥</p>
+    <p class="footer-names">홍길동 · 김영희</p>
+    <p class="footer-date">2026. 06. 14</p>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">계좌번호가 복사되었습니다</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
